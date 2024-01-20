@@ -9,7 +9,8 @@ const productSlice = createSlice({
     initialState:{
         data:[],
         status:STATUS.IDLE
-    },
+    }
+    ,
     extraReducers:(builder)=>{
         builder
         .addCase(fetchproducts.pending,(state,action)=>{

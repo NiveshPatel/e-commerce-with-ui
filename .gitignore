@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-productSlice.jsx
+productSlice
 package-lock-json
 package.json
 # Editor directories and files
